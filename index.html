@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ste.arttts</title>
+    <title>ste.artts</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
     <style>
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
+
         body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #9c450a, #d66e2c);
+            font-family: Arial, sans-serif;
+            background:
+                linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url('image2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             color: #fce8d5;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            margin: 0;
         }
+
         .container {
             text-align: center;
             padding: 30px;
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.35);
             border-radius: 20px;
             max-width: 400px;
             width: 90%;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(4px);
         }
+
         .profile-pic {
             width: 150px;
             height: 150px;
@@ -37,11 +50,13 @@
             margin-bottom: 20px;
             object-fit: cover;
         }
+
         h1 {
             font-size: 1.8rem;
             margin-bottom: 10px;
             letter-spacing: 1px;
         }
+
         .description-line-1 {
             font-size: 1.05rem;
             margin-bottom: 5px;
@@ -49,12 +64,14 @@
             font-weight: 600;
             color: #f8d4b5;
         }
+
         .description-line-2 {
             font-size: 1rem;
             margin-bottom: 20px;
             line-height: 1.4;
             color: #f8d4b5;
         }
+
         .link {
             display: block;
             color: #fce8d5;
@@ -66,6 +83,7 @@
             font-weight: bold;
             transition: 0.3s ease;
         }
+
         .link:hover {
             background: #fce8d5;
             color: #9c450a;
@@ -74,22 +92,37 @@
     </style>
 </head>
 <body>
+
     <div class="container">
-        <!-- Certifique-se de que o arquivo se chame image.jpg -->
-        <img src="image.jpg" alt="Logo ste.arttts" class="profile-pic">
-        <h1>ste.arttts</h1>
+        <!-- Logo principal -->
+        <img src="image.jpg" alt="Logo ste.artts" class="profile-pic">
+
+        <h1>Ste Artts</h1>
 
         <p class="description-line-1">
             Bottons | Pins | Ímãs | Chaveiros | Artes
         </p>
+
         <p class="description-line-2">
-            💡 Sob encomenda &nbsp;&nbsp;📍 Enviamos para todo o Brasil
+            💡 Sob encomenda &nbsp;&nbsp; 📍 Enviamos para todo o Brasil
         </p>
 
-        <a href="#" class="link">MEU SITE</a>
-        <a href="https://www.instagram.com/ste.artts/" class="link" target="_blank">Instagram</a>
-        <a href="https://shopee.com.br/ste.artts" class="link" target="_blank">Loja (Shopee)</a>
-        <a href="https://wa.me/554298708996" class="link" target="_blank">Contato</a>
+        <a href="https://steartts.com.br/" class="link" target="_blank">
+            MEU SITE
+        </a>
+
+        <a href="https://www.instagram.com/ste.artts/" class="link" target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://shopee.com.br/ste.artts" class="link" target="_blank">
+            Loja (Shopee)
+        </a>
+
+        <a href="https://wa.me/554298708996" class="link" target="_blank">
+            Contato
+        </a>
     </div>
+
 </body>
 </html>
